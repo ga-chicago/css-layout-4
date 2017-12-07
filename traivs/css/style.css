@@ -1,0 +1,72 @@
+
+:root {
+  --main-width: 80vw;
+  --box-border-width: 1px;
+  --box-margin-size: 20px;
+  /*--main-half-width: calc((var(--main-width) / 2) - (var(--box-border-width) + var(--box-margin-size)) - 1px);*/
+  /*--main-quarter-width: calc((var(--main-width) / 4) - (var(--box-border-width) + var(--box-margin-size)) - 1px);*/
+}
+
+body {
+	width: var(--main-width);
+	margin: 20px auto;
+}
+.logo, .nav1, .nav2, .nav3, .nav4, .heroImage, .left, .middle, .right, .footer {
+	background-color: Gainsboro;
+	margin: 10px;
+	border: var(--box-border-width);
+	border-color: black;
+	border-style: solid;
+}
+.header, .footer {
+	clear: both;
+	height: 100px;
+}
+.left, .middle, .right{
+	height: 150px;
+	float: left;
+	width: 25%;
+	display:flex;
+	flex: 1 100%;
+	/*align-content: stretch;*/
+
+}
+
+.header{
+	width: auto;
+	margin: auto; 
+	align-items: center;
+}
+
+.blogRoll{
+	display:flex;
+	align-content: stretch;
+	margin: auto; 
+	width: auto;
+	/*border:solid;*/
+}
+
+.nav1, .nav2, .nav3, .nav4{
+	width: 60px;
+	height: 20px;
+	float:right;
+	vertical-align: center;
+	flex: 1 100%;
+	margin-top: 40px
+}
+
+.heroImage{
+	height: 200px;
+
+}
+
+.logo{ 
+ float: left;
+ width: 200px;
+ height: 80px;
+}
+
+
+
+
+
