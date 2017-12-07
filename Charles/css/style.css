@@ -1,41 +1,57 @@
 body {
     margin: 0;
 }
-.navwrapper {
+/* .navwrapper {
+    float: right;
     
-}
+    
+} */
 
 .logo {
     background-color: lightgrey;
-    height: 20px;
-    width: 20px;
+    height: 10vh;
+    width: 20vw;
+    float: left;
+    margin-right: 11vw;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px
 }
 
 .nava {
     background-color: lightgrey;
-    height: 20px;
-    width: 20px;
+    height: 7vh;
+    width: 16vw;
+    margin: 30px 10px;
+    float: left;
 }
 
 .navb {
     background-color: lightgrey;
-    height: 20px;
-    width: 20px;
+    height: 7vh;
+    width: 16vw;
+    margin: 30px 0;
+    float: left;
 }
 
 .navc {
     background-color: lightgrey;
-    height: 20px;
-    width: 20px;
+    height: 7vh;
+    width: 16vw;
+    margin: 30px 10px 30px 10px;
+    float: left;
 }
 
 .navd {
     background-color: lightgrey;
-    height: 20px;
-    width: 20px;
+    height: 7vh;
+    width: 16vw;
+    margin: 30px 10px 30px 0px;
+    float: left;
 }
 
 .bigpicture {
+    clear: both;
     background-color: lightgrey;
     height: 33vh;
     width: 98vw;
