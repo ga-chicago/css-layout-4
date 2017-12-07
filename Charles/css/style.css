@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+.navwrapper {
+    
+}
+
+.logo {
+    background-color: lightgrey;
+    height: 20px;
+    width: 20px;
+}
+
+.nava {
+    background-color: lightgrey;
+    height: 20px;
+    width: 20px;
+}
+
+.navb {
+    background-color: lightgrey;
+    height: 20px;
+    width: 20px;
+}
+
+.navc {
+    background-color: lightgrey;
+    height: 20px;
+    width: 20px;
+}
+
+.navd {
+    background-color: lightgrey;
+    height: 20px;
+    width: 20px;
+}
+
+.bigpicture {
+    background-color: lightgrey;
+    height: 33vh;
+    width: 98vw;
+    margin: 5px 5px;
+}
+
+/* .excerptwrap {
+    margin-bottom: 10px
+    
+} */
+
+.story1 {
+    background-color: lightgrey;
+    height: 100px;
+    width: 206px;
+    float: left;
+    margin: 10px 10px 10px 5px;
+}
+
+.story2 {
+    background-color: lightgrey;
+    height: 100px;
+    width: 206px;
+    margin: 10px 10px;
+    float: left;
+}
+
+.story3 {
+    background-color: lightgrey;
+    height: 100px;
+    width: 206px;
+    margin: 10px 0px 10px 10px;
+    float: left;
+}
+footer {
+    clear: both;
+    background-color: lightgrey;
+    height: 13vh;
+    width: 98vw;
+    margin: 10px 5px;
+}
