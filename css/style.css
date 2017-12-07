@@ -1,0 +1,43 @@
+body{
+    /*max-width: 960px;*/
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    align-items: center;
+
+}
+.banner, .midSize, .smallBox, .bigBox, .midBox, .preFooter{
+    background-color: silver;
+    margin: 10px;
+}
+.banner{
+    width: 95vw;
+    height: 10vh;
+}
+.midSize{
+    width: 20vw;
+    height: 10vh;
+    margin-right: 28vw;
+}
+.smallBox{
+    width: 10vw;
+    height: 5vh;
+}
+.rightSmallBoxes{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+.bigBox{
+    width: 95vw;
+    height: 30vh;
+}
+.midBox{
+    height: 20vh;
+    width: 30.5vw;
+}
+.preFooter{
+    width: 99vw;
+    height: 5vh;
+}
