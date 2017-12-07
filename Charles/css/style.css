@@ -65,24 +65,24 @@ body {
 
 .story1 {
     background-color: lightgrey;
-    height: 100px;
-    width: 206px;
+    height: 200px;
+    width: 32vw;
     float: left;
     margin: 10px 10px 10px 5px;
 }
 
 .story2 {
     background-color: lightgrey;
-    height: 100px;
-    width: 206px;
+    height: 200px;
+    width: 32vw;
     margin: 10px 10px;
     float: left;
 }
 
 .story3 {
     background-color: lightgrey;
-    height: 100px;
-    width: 206px;
+    height: 00px;
+    width: 31vw;
     margin: 10px 0px 10px 10px;
     float: left;
 }
