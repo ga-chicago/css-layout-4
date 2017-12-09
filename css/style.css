@@ -5,9 +5,8 @@ body{
 .container{
     display: flex;
     align-items: center;
-
 }
-.banner, .midSize, .smallBox, .bigBox, .midBox, .preFooter{
+.banner, .midSize, .smallBox, .bigBox, .midBox{
     background-color: silver;
     margin: 10px;
 }
@@ -36,8 +35,4 @@ body{
 .midBox{
     height: 20vh;
     width: 30.5vw;
-}
-.preFooter{
-    width: 99vw;
-    height: 5vh;
 }
